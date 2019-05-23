@@ -44,22 +44,4 @@ function findTheCheese (foods) {
 }    
 
 
-function findTheCheese (foods) {
-  let learnedCheese = []
-  for (let j = 0; j <foods.length; j++) {
-    for (let i = 0; i <cheeses.length; i++) {   
-      if (foods[j] === cheeses[i]) {
-        learnedCheese.push(foods[j])  
-      }
-    }   
-  }    
-    
-  if (learnedCheese.length === 0) {
-    return "no cheeses!"
-  } else {
-    return learnedCheese
-  }
-}    
-
-console.log(findTheCheese(veggies))
 
