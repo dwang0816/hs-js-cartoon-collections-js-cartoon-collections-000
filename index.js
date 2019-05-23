@@ -4,7 +4,7 @@ function dwarfRollCall(dwarves) {
   let response = ""
   for (let i = 0; i < dwarves.length; i++) {
   // response += (i+1 + "." + dwarves[i])
-   response += `${i+1}.${dwarves[i]}`
+   response += `${i+1}. ${dwarves[i]}`
   }
   return response
 }
