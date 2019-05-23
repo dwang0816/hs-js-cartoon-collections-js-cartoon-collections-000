@@ -30,7 +30,7 @@ function longPlaneteerCalls(words) {
   return false
 }
 let veggies = ["carrot","watermelon","cheddar","gouda"]
-let cheeses = ["cheddar", "gouda", "camembert"]
+let cheeses = ["cheddar", "gouda", "camembert", "swiss cheese"]
 
 function findTheCheese (foods) {
   for (let j = 0; j <foods.length; j++) {
@@ -43,5 +43,9 @@ function findTheCheese (foods) {
   return "no cheeses!"  
 }    
 
-
+function wordsWithB (words) {
+  for (i = 0; i < words.length; i++) {
+    if 
+  }
+}
 
