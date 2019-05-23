@@ -2,7 +2,7 @@
 let dwarves = ["Doc", "Dopey", "Bashful", "Grumpy"]
 function dwarfRollCall(dwarves) {
   let response = ""
-  for (i = 0; i < dwarves.length; i++) {
+  for (i = dwarves.length; i > 0; i--) {
   // response += (i+1 + "." + dwarves[i])
    response += `${i+1}. ${dwarves[i]} `
   }
@@ -44,8 +44,11 @@ function findTheCheese (foods) {
 }    
 
 function wordsWithB (words) {
+  let savedArray = []
   for (i = 0; i < words.length; i++) {
-    
+    if (words[i].startsWith("b"))
+      savedArray.push(words[i])
   }
-}
 
+  return savedArray
+}
