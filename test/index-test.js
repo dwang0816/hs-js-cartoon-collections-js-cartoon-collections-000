@@ -2,8 +2,8 @@
 
 describe("dwarfRollCall", function() {
       it("prints out dwarfs in a numbered list based on an array'", function() {
-        var dwarves = ["Dopey", "Grumpy", "Bashful"];
-        expect(dwarfRollCall(dwarves)).toEqual("1. Dopey 2. Grumpy 3. Bashful ");
+        var dwarves = ["Doc", "Dopey", "Grumpy", "Bashful"];
+        expect(dwarfRollCall(dwarves)).toEqual("1. Doc 2. Dopey 3. Bashful 4. Grumpy ");
       });
 });
 
